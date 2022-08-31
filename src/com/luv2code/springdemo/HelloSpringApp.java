@@ -19,12 +19,5 @@ public class HelloSpringApp {
 		context.close();
 		
 		
-		
-		
-		
-		
-		
-		
 	}
-
 }
