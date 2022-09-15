@@ -16,14 +16,16 @@
 
 
     <bean id="myCoach"
-     class="com.luv2code.springdemo.BaseballCoach" >
+     class="com.luv2code.springdemo.TrackCoach" >
      <!-- set up constructor injection -->
     <constructor-arg ref="myFortune" /> 
     </bean>
-    
-    
-    
-    
+    <bean id="myCricutCoach" class='com.luv2code.springdemo.CricutCoach'>
+    	<property name="fortuneService" ref="myFortune"></property></bean>
+
+
+
+
 </beans>
 
 
